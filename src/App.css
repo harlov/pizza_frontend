@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+
+.MenuItem {
+  padding: 5px;
+  margin: 10px;
+}
+
+.Cart {
+  text-align: left;
+  position: absolute;
+  right: 10px;
+}
