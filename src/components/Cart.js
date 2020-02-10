@@ -62,12 +62,6 @@ class Cart extends React.Component {
         return(
             <div className="Cart">
                 <Container>
-                        {cart.items.map((item, key) =>
-                            <div key={key}>
-                                {item.menu_item.name} - {item.menu_item.price_value} X {item.quantity}
-                            </div>
-                        )}
-                    <hr />
                     <div>{cart.items.length} items for <strong>{cart.total_sum}</strong> EUR</div>
                     <div>Delivery:  {cart.delivery_cost} EUR</div>
                     <hr />
